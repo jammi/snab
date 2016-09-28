@@ -41,6 +41,11 @@ module.exports = api => {
       echo('stops?');
     },
 
+    // shows status of process(es)
+    status: () => {
+      echo('status: ?');
+    },
+
     // returns io streams of stdin/stdout
     logs: () => {
       return ioStreams;
